@@ -7,7 +7,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#1f2123] text-white flex w-full px-4 py-6 items-center justify-between">
+    <div className="bg-[#1f2123] text-white flex w-full px-8 py-6 items-center justify-between">
       <div className="flex gap-8">
         <a href="">Tokenize</a>
         <ul className="md:flex hidden gap-8">
