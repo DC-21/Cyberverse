@@ -1,4 +1,5 @@
 import React from 'react'
+import cyber from '../images/cyber.jpg'
 
 const Hero = () => {
   return (
@@ -7,7 +8,9 @@ const Hero = () => {
         <p>What is Tokenization ?</p>
         <h1 className='text-white text-5xl'>The Future Of Cyber Security Is Here</h1>
       </div>
-      <div className='w-1/2'></div>
+      <div className='w-1/2'>
+        <img src={cyber} alt='cyber'/>
+      </div>
     </div>
   )
 }
