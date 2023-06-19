@@ -8,13 +8,13 @@ const Technology = () => {
         </div>
         <div className='mt-10 flex'>
             <div className='w-1/3 h-[450px] border border-blue-50 items-center justify-between'>
-                <h1 className='text-center text-white mt-6 text-3xl px-4'>Secure Data Collection</h1>
+                <h1 className='text-left text-white mt-6 text-3xl px-4'>Secure Data Collection</h1>
             </div>
             <div className='w-1/3 h-[450px] border border-blue-50'>
-                <h1 className='text-center text-white mt-6 text-3xl px-4'>Secure Data Transmission</h1>
+                <h1 className='text-left text-white mt-6 text-3xl px-4'>Secure Data Transmission</h1>
             </div>
             <div className='w-1/3 h-[450px] border border-blue-50'>
-                <h1 className='text-center text-white mt-6 text-3xl px-4'>Other Products & Integrations</h1>
+                <h1 className='text-left text-white mt-6 text-3xl px-4'>Other Products & Integrations</h1>
             </div>
         </div>
     </div>
