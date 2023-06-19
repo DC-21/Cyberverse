@@ -66,7 +66,7 @@ const Navbar = () => {
             </svg>
           )}
           {open ? 
-        <ul className="absolute right-0 shadow-2xl items-center z-50 top-[3.7em] w-[6em] py-2 gap-2 flex flex-col text-left h-[11em] rounded bg-[#1f2123]">
+        <ul className="absolute right-0 shadow-2xl items-center z-50 top-[3.7em] w-[6em] py-2 gap-2 flex flex-col text-left h-[11em] rounded bg-white text-black">
           <li>
             <a>Platform</a>
           </li>
