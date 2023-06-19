@@ -1,5 +1,5 @@
 import React from 'react'
-import cyber from '../images/cyber.jpg'
+import c from '../images/c.png'
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className='text-white text-5xl'>The Future Of Cyber Security Is Here</h1>
       </div>
       <div className='w-1/2 mt-16 flex'>
-        <img src={cyber} alt='cyber'/>
+        <img src={c} alt='cyber'/>
       </div>
     </div>
   )
