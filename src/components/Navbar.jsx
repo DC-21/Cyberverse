@@ -7,22 +7,22 @@ const Navbar = () => {
         <a href=''>Tokenize</a>
         <ul>
             <li>
-                <a></a>
+                <a>What is Tokenize?</a>
             </li>
             <li>
-                <a></a>
+                <a>Platform</a>
             </li>
             <li>
-                <a></a>
+                <a>Solutions</a>
             </li>
             <li>
-                <a></a>
+                <a>Reference</a>
             </li>
             <li>
-                <a></a>
+                <a>About</a>
             </li>
             <li>
-                <a></a>
+                <a>Contact</a>
             </li>
         </ul>
       </div>
