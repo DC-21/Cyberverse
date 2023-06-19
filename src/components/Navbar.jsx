@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
+
+  const [open, setOpen] = useState(false);
+  const handleMenu=()=>{
+    setOpen(!open)
+  }
+
   return (
     <div className="bg-[#1f2123] text-white flex w-full px-4 py-6 justify-between">
       <div className="flex gap-8">
