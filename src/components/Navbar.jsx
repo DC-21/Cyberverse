@@ -26,7 +26,10 @@ const Navbar = () => {
             </li>
         </ul>
       </div>
-      <div></div>
+      <div>
+        <a></a>
+        <button>Log In</button>
+      </div>
     </div>
   )
 }
