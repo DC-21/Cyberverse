@@ -7,7 +7,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" text-white flex w-full px-8 py-6 items-center bg-[#1f2123] justify-between">
+    <div className=" sticky top-0 text-white flex w-full px-8 py-6 items-center bg-[#1f2123] justify-between">
       <div className="flex gap-8">
         <a href="">Cyber Wave</a>
         <ul className="md:flex hidden gap-8">
