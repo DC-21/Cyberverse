@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='bg-[#1f2123] text-white'>
       <div>
         <a href=''>Tokenize</a>
         <ul>
