@@ -4,6 +4,17 @@ import { Player } from '@lottiefiles/react-lottie-player';
 const Hero = () => {
   return (
     <div className='h-screen w-full px-8 relative'>
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          backgroundColor: '#1f2123', // Change the background color here
+          zIndex: -1,
+        }}
+      />
       <Player
         autoplay
         loop
@@ -14,11 +25,10 @@ const Hero = () => {
           left: 0,
           width: '100%',
           height: '100%',
-          zIndex: -1,
         }}
       />
       <div className='w-full h-full flex items-center justify-center'>
-        <h1 className='text-4xl py-20 text-blue-800 text-center pt-20'>The Future Of Cyber Security Is Here!!</h1>
+        <h1 className='text-4xl text-blue-800 text-center pt-4'>The Future Of Cyber Security Is Here!!</h1>
       </div>
     </div>
   );
