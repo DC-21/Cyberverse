@@ -28,7 +28,10 @@ const Hero = () => {
         }}
       />
       <div className='w-full h-full flex justify-center'>
-        <h1 className='text-4xl text-indigo-300 text-center pt-4'>The Future Of Cyber Security Is Here!!</h1>
+        <h1 className='text-4xl text-indigo-300 text-center pt-10'>The Future Of Cyber Security Is Here!!</h1>
+      </div>
+      <div className='justify-start pt-20 text-indigo-300'>
+        <p>hello</p>
       </div>
     </div>
   );
