@@ -8,8 +8,10 @@ const Navbar = () => {
 
   return (
     <div className=" sticky top-0 text-white flex w-full px-8 py-6 items-center bg-[#1f2123] justify-between">
-      <div className="flex gap-8">
+      <div className="flex">
         <a href="">Cyber Wave</a>
+        </div>
+        <div className="flex">
         <ul className="md:flex hidden gap-8">
           <li>
             <a>Home</a>
@@ -29,11 +31,11 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="md:flex hidden gap-6 items-center">
-       <button>Sign Up</button>
+        <button>Sign Up</button>
         <button>Log In</button>
       </div>
       <div className={`md:hidden ${open ? "right-3" : "right-3"} absolute`}>
-        <button  onClick={handleMenu}>
+        <button onClick={handleMenu}>
           {open ? (
             <svg
               viewBox="0 0 470 1000"
@@ -53,24 +55,25 @@ const Navbar = () => {
               <path d="M650 450c14.667 0 26.667 5 36 15 9.333 10 14 21.667 14 35 0 13.333-5 25-15 35s-21.667 15-35 15H50c-13.333 0-25-5-35-15S0 513.333 0 500c0-13.333 4.667-25 14-35s21.333-15 36-15h600M50 350c-13.333 0-25-5-35-15S0 313.333 0 300c0-13.333 4.667-25 14-35s21.333-15 36-15h600c14.667 0 26.667 5 36 15 9.333 10 14 21.667 14 35 0 13.333-5 25-15 35s-21.667 15-35 15H50m600 300c14.667 0 26.667 5 36 15 9.333 10 14 21.667 14 35 0 13.333-5 25-15 35s-21.667 15-35 15H50c-13.333 0-25-5-35-15S0 713.333 0 700c0-13.333 4.667-25 14-35s21.333-15 36-15h600" />
             </svg>
           )}
-          {open ? 
-        <ul className="absolute right-0 shadow-2xl items-center z-50 top-[3.7em] w-[6em] py-2 gap-2 flex flex-col text-left h-[11em] rounded bg-white text-black">
-          <li>
-            <a>Platform</a>
-          </li>
-          <li>
-            <a>Solutions</a>
-          </li>
-          <li>
-            <a>Reference</a>
-          </li>
-          <li>
-            <a>About</a>
-          </li>
-          <li>
-            <a>Contact</a>
-          </li>
-        </ul>:null }
+          {open ? (
+            <ul className="absolute right-0 shadow-2xl items-center z-50 top-[3.7em] w-[6em] py-2 gap-2 flex flex-col text-left h-[11em] rounded bg-white text-black">
+              <li>
+                <a>Platform</a>
+              </li>
+              <li>
+                <a>Solutions</a>
+              </li>
+              <li>
+                <a>Reference</a>
+              </li>
+              <li>
+                <a>About</a>
+              </li>
+              <li>
+                <a>Contact</a>
+              </li>
+            </ul>
+          ) : null}
         </button>
       </div>
     </div>
