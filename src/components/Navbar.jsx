@@ -17,7 +17,7 @@ const Navbar = () => {
   }
 
   const handlePricing=()=>{
-    const pricing = document.getElementById("prices");
+    const pricing = document.getElementById("pricing");
     pricing.scrollIntoView({ behavior:"smooth "})
   }
 
