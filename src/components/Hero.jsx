@@ -29,7 +29,12 @@ const Hero = () => {
       <div className='w-full h-full flex py-20 justify-start'>
         <div className='w-1/2 pb-20'>
           <h1 className='text-5xl text-indigo-300 md:text-left text-center mb-6'>The Future Of Cyber Security Is Here!!</h1>
-          <p className='text-2xl text-indigo-300 md:text-left text-center'>Empowering businesses with robust cybersecurity solutions and cutting-edge web development<br/> services. We safeguard digital assets, while<br/> crafting exceptional websites that captivate<br/> audiences and drive success in the<br/> ever-evolving online landscape.</p>
+          <p className='text-2xl text-indigo-300 md:text-left text-center'>Empowering businesses with robust cybersecurity solutions and cutting-edge web development<br/>
+           services. We safeguard digital assets, while<br/> crafting exceptional websites that captivate<br/> 
+           audiences and drive success in the<br/> ever-evolving online landscape.</p>
+           <div className='flex gap-6'>
+            <button className='bg-indigo-300 mt-8 py-2 px-3 rounded'>Get in Touch</button>
+           </div>
         </div>
       </div>
     </div>
