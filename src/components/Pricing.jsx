@@ -12,7 +12,7 @@ const Pricing = () => {
             Business<span>For business services</span>
           </h2>
           <div class="etiquet-price">
-            <p>254.99</p>
+            <p>99.99</p>
             <div></div>
           </div>
           <div class="benefits-list">
@@ -74,7 +74,7 @@ const Pricing = () => {
             Business<span>For business services</span>
           </h2>
           <div class="etiquet-price">
-            <p>254.99</p>
+            <p>99.99</p>
             <div></div>
           </div>
           <div class="benefits-list">
@@ -137,7 +137,7 @@ const Pricing = () => {
             Business<span>For business services</span>
           </h2>
           <div class="etiquet-price">
-            <p>254.99</p>
+            <p>99.99</p>
             <div></div>
           </div>
           <div class="benefits-list">
