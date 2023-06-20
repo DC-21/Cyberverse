@@ -3,13 +3,13 @@ import React from "react";
 const Pricing = () => {
   return (
     <div className="bg-gray-200 px-8 w-full md:h-screen h-auto py-6" id="pricing" >
-      <h1 className="text-4xl text-black text-center items-center pb-14 pt-8">
+      <h1 className="text-5xl text-black text-center items-center pb-14 pt-8">
         Pricing
       </h1>
       <div className="flex flex-wrap w-full gap-16 overflow-auto items-center justify-center">
         <div className="plan-card">
           <h2>
-            Business<span>For business services</span>
+            Cyber Services
           </h2>
           <div className="etiquet-price">
             <p>99.99</p>
@@ -71,7 +71,7 @@ const Pricing = () => {
 
         <div className="plan-card">
           <h2>
-            Business<span>For business services</span>
+            UI/UX Design
           </h2>
           <div className="etiquet-price">
             <p>99.99</p>
@@ -134,7 +134,7 @@ const Pricing = () => {
 
         <div className="plan-card">
           <h2>
-            Business<span>For business services</span>
+            Web Development
           </h2>
           <div className="etiquet-price">
             <p>99.99</p>

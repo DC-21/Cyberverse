@@ -26,7 +26,7 @@
   .plan-card h2 {
     margin-bottom: 15px;
     font-size: 27px;
-    font-weight: 600;
+    font-weight: 400;
   }
   
 
@@ -37,7 +37,7 @@
     width: 14.46rem;
     margin-left: -0.65rem;
     padding: .2rem 1.2rem;
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px 5px 5px 5px;
   }
   
   .etiquet-price p {
