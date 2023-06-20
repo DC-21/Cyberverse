@@ -7,7 +7,7 @@ const Hero = () => {
       <Player
         autoplay
         loop
-        src='https://assets1.lottiefiles.com/packages/lf20_nGXSC19ESN.json'
+        src='https://assets1.lottiefiles.com/packages/lf20_jdeqicuf.json'
         style={{
           position: 'absolute',
           top: 0,
