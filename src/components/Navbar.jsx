@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" sticky top-0 text-white flex w-full px-8 py-6 items-center justify-between" style={{ backgroundImage:`url(${image})` }}>
+    <div className=" sticky top-0 text-white flex w-full z-50 px-8 py-6 items-center justify-between" style={{ backgroundImage:`url(${image})` }}>
       <div className="flex">
         <a href="">Cyber Wave</a>
         </div>

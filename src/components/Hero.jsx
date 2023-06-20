@@ -7,7 +7,7 @@ const Hero = () => {
       <Player
         autoplay
         loop
-        src='https://assets2.lottiefiles.com/packages/lf20_kx3p7bbx.json'
+        src='https://assets1.lottiefiles.com/packages/lf20_nGXSC19ESN.json'
         style={{
           position: 'absolute',
           top: 0,
@@ -18,7 +18,7 @@ const Hero = () => {
         }}
       />
       <div className='w-full h-full flex items-center justify-center'>
-        <h1 className='text-4xl py-20 text-white text-center pt-20'>The Future Of Cyber Security Is Here!!</h1>
+        <h1 className='text-4xl py-20 text-blue-800 text-center pt-20'>The Future Of Cyber Security Is Here!!</h1>
       </div>
     </div>
   );
