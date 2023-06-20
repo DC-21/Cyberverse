@@ -2,7 +2,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 
 const Hero = () => {
   return (
-    <div className='h-screen w-full px-8 relative'>
+    <div className='md:h-screen h-auto w-full px-8 relative'>
       <div
         style={{
           position: 'absolute',
@@ -29,7 +29,7 @@ const Hero = () => {
       <div className='w-full h-full flex py-20 justify-start'>
         <div className='w-1/2 py-6'>
           <h1 className='text-5xl text-indigo-300 md:text-left text-center mb-6'>The Future Of Cyber Security Is Here!!</h1>
-          <p className='text-2xl text-gray-400 md:text-left text-center'>Empowering businesses with robust cybersecurity solutions and cutting-edge web development<br/>
+          <p className='text-2xl text-gray-400 text-left md:flex hidden'>Empowering businesses with robust cybersecurity solutions and cutting-edge web development<br/>
            services. We safeguard digital assets, while<br/> crafting exceptional websites that captivate<br/> 
            audiences and drive success in the<br/> ever-evolving online landscape.</p>
            <div className='flex gap-6'>

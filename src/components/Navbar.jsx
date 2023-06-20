@@ -56,21 +56,27 @@ const Navbar = () => {
             </svg>
           )}
           {open ? (
-            <ul className="absolute right-0 shadow-2xl items-center z-50 top-[3.7em] w-[6em] py-2 gap-2 flex flex-col text-left h-[11em] rounded bg-white text-black">
+            <ul className="absolute right-0 shadow-2xl items-center z-50 top-[3.7em] w-[6em] py-2 gap-2 flex flex-col text-left h-[14.5em] rounded bg-white text-black">
               <li>
-                <a>Platform</a>
+                <a>Home</a>
               </li>
               <li>
-                <a>Solutions</a>
+                <a>Services</a>
               </li>
               <li>
-                <a>Reference</a>
+                <a>Pricing</a>
+              </li>
+              <li>
+                <a>Contact</a>
               </li>
               <li>
                 <a>About</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a>Sign In</a>
+              </li>
+              <li>
+                <a>Login</a>
               </li>
             </ul>
           ) : null}
