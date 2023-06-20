@@ -10,7 +10,7 @@ const Hero = () => {
           left: 0,
           width: '100%',
           height: '100%',
-          backgroundColor: '#1f2123', // Change the background color here
+          backgroundColor: '#1f2123',
           zIndex: -1,
         }}
       />
@@ -26,10 +26,10 @@ const Hero = () => {
           height: '100%',
         }}
       />
-      <div className='w-full h-full flex items-center justify-start'>
-        <div className='w-1/2 pl-8'>
-          <h1 className='text-5xl text-indigo-300 text-left mt-8'>The Future Of Cyber Security Is Here!!</h1>
-          <p className='text-2xl text-indigo-300 text-left mt-8'>Empowering businesses with robust cybersecurity solutions and cutting-edge web development services. We safeguard digital assets, while crafting exceptional websites that captivate audiences and drive success in the ever-evolving online landscape.</p>
+      <div className='w-full h-full flex py-20 justify-start'>
+        <div className='w-1/2 pb-20'>
+          <h1 className='text-5xl text-indigo-300 md:text-left text-center mb-6'>The Future Of Cyber Security Is Here!!</h1>
+          <p className='text-2xl text-indigo-300 md:text-left text-center'>Empowering businesses with robust cybersecurity solutions and cutting-edge web development<br/> services. We safeguard digital assets, while<br/> crafting exceptional websites that captivate<br/> audiences and drive success in the<br/> ever-evolving online landscape.</p>
         </div>
       </div>
     </div>
