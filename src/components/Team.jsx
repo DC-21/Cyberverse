@@ -1,4 +1,5 @@
 import React from "react";
+import own from '../images/own.png'
 
 const Team = () => {
   return (
@@ -17,8 +18,8 @@ const Team = () => {
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <img
                 alt="team"
-                className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                src="https://dummyimage.com/200x200"
+                className="flex-shrink-0 rounded-lg w-48 h-38 object-cover object-center sm:mb-0 mb-4"
+                src={own}
               />
               <div className="flex-grow sm:pl-8">
                 <h2 className="title-font font-medium text-lg text-white">
