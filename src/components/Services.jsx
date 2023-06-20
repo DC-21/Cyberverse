@@ -2,12 +2,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-wrap w-full h-screen px-8 py-6 bg-[#381495] gap-6">
+    <div className="flex flex-wrap w-full md:h-screen h-auto px-8 py-6 bg-[#381495] gap-6">
       <h1 className="text-white text-4xl py-10 w-full text-center">
         Our Services
       </h1>
-      <div className="w-full h-[450px] flex flex-row gap-4">
-        <div className="w-1/3 h-full rounded border border-blue-50">
+      <div className="w-full md:h-[450px] h-auto flex md:flex-row flex-col gap-4">
+        <div className="flex flex-col md:w-1/3 w-full h-full rounded border border-blue-50">
           <h1 className="text-center py-6 text-2xl text-white">
             Cyber Security Services
           </h1>
@@ -164,7 +164,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="w-1/3 h-full rounded border border-blue-50">
+        <div className="flex flex-col md:w-1/3 w-full h-full rounded border border-blue-50">
           <h1 className="text-center py-6 text-2xl text-white">UI/UX Design</h1>
           <ul className="px-4 text-indigo-200 text-l">
             <li className="items-center flex gap-3 py-4">
@@ -319,7 +319,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="w-1/3 h-full rounded border border-blue-50">
+        <div className="flex flex-col md:w-1/3 w-full h-full rounded border border-blue-50">
         <h1 className="text-center py-6 text-2xl text-white">Web Development Services</h1>
           <ul className="px-4 text-indigo-200 text-l">
             <li className="items-center flex gap-3 py-4">
@@ -370,7 +370,7 @@ const About = () => {
                   d="M216 352l96-96-96-96"
                 />
               </svg>
-              <a>Mobile App Design</a>
+              <a>Mobile Web Development</a>
             </li>
             <li className="items-center flex gap-3 py-4">
               <svg
@@ -395,7 +395,7 @@ const About = () => {
                   d="M216 352l96-96-96-96"
                 />
               </svg>
-              <a>Print Design</a>
+              <a>E-Commerce Development</a>
             </li>
             <li className="items-center flex gap-3 py-4">
               <svg
@@ -420,7 +420,7 @@ const About = () => {
                   d="M216 352l96-96-96-96"
                 />
               </svg>
-              <a>Branding And Identity Design</a>
+              <a>Content Management Systems Development</a>
             </li>
             <li className="items-center flex gap-3 py-4">
               <svg
@@ -445,7 +445,7 @@ const About = () => {
                   d="M216 352l96-96-96-96"
                 />
               </svg>
-              <a>Advertising And Market Design</a>
+              <a>Single-Page Applications Development</a>
             </li>
             <li className="items-center flex gap-3 py-4">
               <svg
@@ -470,7 +470,7 @@ const About = () => {
                   d="M216 352l96-96-96-96"
                 />
               </svg>
-              <a>Data Visualization</a>
+              <a>Progressive Web App Development</a>
             </li>
           </ul>
         </div>
