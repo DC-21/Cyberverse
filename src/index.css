@@ -29,17 +29,11 @@
     font-weight: 600;
   }
   
-  .plan-card h2 span {
-    display: block;
-    margin-top: -4px;
-    color: #4d4d4d;
-    font-size: 12px;
-    font-weight: 400;
-  }
+
   
   .etiquet-price {
     position: relative;
-    background: #fdbd4a;
+    background: #000446;
     width: 14.46rem;
     margin-left: -0.65rem;
     padding: .2rem 1.2rem;
@@ -52,6 +46,7 @@
     display: flex;
     font-size: 1.9rem;
     font-weight: 500;
+    color: white;
   }
   
   .etiquet-price p:before {

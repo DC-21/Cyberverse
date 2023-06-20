@@ -6,7 +6,7 @@ const Navbar = () => {
     setOpen(!open);
   };
 
-  const handleHome=()=>{
+  const handleHome =()=>{
     const home=document.getElementById("home");
     home.scrollIntoView({ behavior: "smooth"})
   }
@@ -16,7 +16,7 @@ const Navbar = () => {
     services.scrollIntoView({ behavior: "smooth"})
   }
 
-  const handlePricing=()=>{
+  const handlePricing =()=>{
     const pricing = document.getElementById("pricing");
     pricing.scrollIntoView({ behavior:"smooth "})
   }
@@ -38,25 +38,25 @@ const Navbar = () => {
         </div>
         <div className="flex">
         <ul className="md:flex hidden gap-8">
-          <li onClick={handleHome}>
+          <li onClick={handleHome} className="hover:bg-indigo-300 rounded px-3 py-1">
             <a>Home</a>
           </li>
-          <li onClick={HandleServices}>
+          <li onClick={HandleServices} className="hover:bg-indigo-300 rounded px-3 py-1">
             <a>Services</a>
           </li>
-          <li onClick={handlePricing}>
+          <li onClick={handlePricing} className="hover:bg-indigo-300 rounded px-3 py-1">
             <a>Pricing</a>
           </li>
-          <li onClick={handleContact}>
+          <li onClick={handleContact} className="hover:bg-indigo-300 rounded px-3 py-1">
             <a>Contact</a>
           </li>
-          <li onClick={handleAbout}>
+          <li onClick={handleAbout} className="hover:bg-indigo-300 rounded px-3 py-1">
             <a>About</a>
           </li>
         </ul>
       </div>
       <div className="md:flex hidden gap-6 items-center">
-        <button>Sign Up</button>
+        <button className="hover:bg-indigo-300 rounded px-3 py-1">Sign Up</button>
         <button className="bg-indigo-300 rounded px-3 py-1">Log In</button>
       </div>
       <div className={`md:hidden ${open ? "right-3" : "right-3"} absolute`}>
