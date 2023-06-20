@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import image from '../images/c.png'
+import { useState } from "react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
