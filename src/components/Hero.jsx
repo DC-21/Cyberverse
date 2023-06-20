@@ -27,8 +27,8 @@ const Hero = () => {
           height: '100%',
         }}
       />
-      <div className='w-full h-full flex justify-center'>
-        <h1 className='text-4xl text-indigo-300 text-center pt-10'>The Future Of Cyber Security Is Here!!</h1>
+      <div className='w-full h-full flex justify-start pt-6'>
+        <h1 className='text-5xl text-indigo-300 text-left pt-10'>The Future Of Cyber Security Is Here!!</h1>
       </div>
     </div>
   );
