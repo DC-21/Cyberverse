@@ -164,7 +164,11 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="w-1/3 h-full rounded border border-blue-50"></div>
+        <div className="w-1/3 h-full rounded border border-blue-50">
+           <h1 className="text-center py-6 text-2xl text-white">
+            UI/UX Design
+          </h1>
+        </div>
         <div className="w-1/3 h-full rounded border border-blue-50"></div>
       </div>
     </div>
