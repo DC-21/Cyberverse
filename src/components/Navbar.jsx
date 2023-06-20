@@ -6,6 +6,11 @@ const Navbar = () => {
     setOpen(!open);
   };
 
+  const HandleServices =()=>{
+    const services = document.getElementById("services");
+    services.scrollIntoView({ behavior: "smooth"})
+  }
+
   return (
     <div className=" sticky top-0 text-white flex w-full z-50 px-8 py-6 items-center justify-between bg-[#381495]">
       <div className="flex">
