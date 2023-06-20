@@ -26,8 +26,11 @@ const Hero = () => {
           height: '100%',
         }}
       />
-      <div className='w-full h-full flex justify-start pt-6'>
-        <h1 className='text-5xl text-indigo-300 text-left pt-10'>The Future Of Cyber Security Is Here!!</h1>
+      <div className='w-full h-full flex items-center justify-start'>
+        <div className='w-1/2 pl-8'>
+          <h1 className='text-5xl text-indigo-300 text-left mt-8'>The Future Of Cyber Security Is Here!!</h1>
+          <p className='text-2xl text-indigo-300 text-left mt-8'>Empowering businesses with robust cybersecurity solutions and cutting-edge web development services. We safeguard digital assets, while crafting exceptional websites that captivate audiences and drive success in the ever-evolving online landscape.</p>
+        </div>
       </div>
     </div>
   );
