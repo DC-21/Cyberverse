@@ -6,9 +6,29 @@ const Navbar = () => {
     setOpen(!open);
   };
 
+  const handleHome=()=>{
+    const home=document.getElementById("home");
+    home.scrollIntoView({ behavior: "smooth"})
+  }
+
   const HandleServices =()=>{
     const services = document.getElementById("services");
     services.scrollIntoView({ behavior: "smooth"})
+  }
+
+  const handlePricing=()=>{
+    const pricing = document.getElementById("prices");
+    pricing.scrollIntoView({ behavior:"smooth "})
+  }
+
+  const handleContact =()=>{
+    const contact=document.getElementById("contact");
+    contact.scrollIntoView({ behavior: "smooth"})
+  }
+
+  const handleAbout =()=>{
+    const about=document.getElementById("about");
+    about.scrollIntoView({ behavior: "smooth"})
   }
 
   return (
@@ -18,19 +38,19 @@ const Navbar = () => {
         </div>
         <div className="flex">
         <ul className="md:flex hidden gap-8">
-          <li>
+          <li onClick={handleHome}>
             <a>Home</a>
           </li>
-          <li>
+          <li onClick={HandleServices}>
             <a>Services</a>
           </li>
-          <li>
+          <li onClick={handlePricing}>
             <a>Pricing</a>
           </li>
-          <li>
+          <li onClick={handleContact}>
             <a>Contact</a>
           </li>
-          <li>
+          <li onClick={handleAbout}>
             <a>About</a>
           </li>
         </ul>

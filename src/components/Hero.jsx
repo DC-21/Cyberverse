@@ -2,7 +2,7 @@ import { Player } from '@lottiefiles/react-lottie-player';
 
 const Hero = () => {
   return (
-    <div className='md:h-screen h-auto w-full px-8 relative'>
+    <div className='md:h-screen h-auto w-full px-8 relative' id='home'>
       <div
         style={{
           position: 'absolute',
