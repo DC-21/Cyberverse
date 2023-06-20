@@ -17,9 +17,6 @@ const Navbar = () => {
             <a>Home</a>
           </li>
           <li>
-            <a>About</a>
-          </li>
-          <li>
             <a>Services</a>
           </li>
           <li>
@@ -28,11 +25,14 @@ const Navbar = () => {
           <li>
             <a>Contact</a>
           </li>
+          <li>
+            <a>About</a>
+          </li>
         </ul>
       </div>
       <div className="md:flex hidden gap-6 items-center">
         <button>Sign Up</button>
-        <button>Log In</button>
+        <button className="bg-indigo-300 rounded px-3 py-1">Log In</button>
       </div>
       <div className={`md:hidden ${open ? "right-3" : "right-3"} absolute`}>
         <button onClick={handleMenu}>
