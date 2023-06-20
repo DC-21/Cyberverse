@@ -27,7 +27,7 @@ const Hero = () => {
         }}
       />
       <div className='w-full h-full flex py-20 justify-start'>
-        <div className='w-1/2 pb-20'>
+        <div className='w-1/2 py-6'>
           <h1 className='text-5xl text-indigo-300 md:text-left text-center mb-6'>The Future Of Cyber Security Is Here!!</h1>
           <p className='text-2xl text-gray-400 md:text-left text-center'>Empowering businesses with robust cybersecurity solutions and cutting-edge web development<br/>
            services. We safeguard digital assets, while<br/> crafting exceptional websites that captivate<br/> 
