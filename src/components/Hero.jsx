@@ -33,7 +33,7 @@ const Hero = () => {
            services. We safeguard digital assets, while<br/> crafting exceptional websites that captivate<br/> 
            audiences and drive success in the<br/> ever-evolving online landscape.</p>
            <div className='flex gap-6 md:justify-start justify-center'>
-            <button className='bg-indigo-300 md:text-left text-center mt-12 py-2 px-3 cursor-pointer rounded text-black hover:bg-[#381495] hover:text-white'>Get in Touch</button>
+            <button className='bg-[#381495] text-white  md:text-left text-center mt-12 py-2 px-3 cursor-pointer rounded hover:bg-indigo-300 hover:text-white'>Get in Touch</button>
            </div>
         </div>
       </div>
