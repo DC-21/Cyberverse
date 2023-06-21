@@ -6,8 +6,8 @@ const About = () => {
       <h1 className="text-white text-4xl py-6 w-full text-center">
         Our Services
       </h1>
-      <div className="w-full md:h-[450px] h-auto flex md:flex-row flex-col gap-4">
-        <div className="flex flex-col md:w-1/3 w-full h-full rounded border border-blue-50">
+      <div className=" w-full md:h-[450px] h-auto flex md:flex-row flex-col gap-4">
+        <div className="cursor-pointer flex flex-col md:w-1/3 w-full h-full rounded border border-blue-50">
           <h1 className="text-center py-6 text-2xl text-white">
             Cyber Security Services
           </h1>
@@ -164,7 +164,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col md:w-1/3 w-full h-full rounded border border-blue-50">
+        <div className="cursor-pointer flex flex-col md:w-1/3 w-full h-full rounded border border-blue-50">
           <h1 className="text-center py-6 text-2xl text-white">UI/UX Design</h1>
           <ul className="px-4 text-indigo-200 text-l">
             <li className="items-center flex gap-3 py-4">
@@ -319,7 +319,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col md:w-1/3 w-full h-full rounded border border-blue-50">
+        <div className="cursor-pointer flex flex-col md:w-1/3 w-full h-full rounded border border-blue-50">
         <h1 className="text-center py-6 text-2xl text-white">Web Development Services</h1>
           <ul className="px-4 text-indigo-200 text-l">
             <li className="items-center flex gap-3 py-4">
