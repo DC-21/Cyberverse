@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div className="cursor-pointer sticky top-0 shadow-2xl text-white flex w-full z-50 px-8 py-6 items-center justify-between bg-[#381495]">
       <div className="flex">
-        <a href="">Cyber Wave</a>
+        <a href="">Cyber Verse</a>
         </div>
         <div className="flex">
         <ul className="md:flex hidden gap-8">
