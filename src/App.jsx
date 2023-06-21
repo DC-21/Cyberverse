@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Services from './components/Services'
 import Pricing from './components/Pricing'
 import Team from './components/Team'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
      <Services/>
      <Pricing/>
      <Team/>
+     <Contact/>
     </>
   )
 }
