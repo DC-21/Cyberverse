@@ -48,10 +48,10 @@ const Navbar = () => {
             <a>Pricing</a>
           </li>
           <li onClick={handleContact} className="hover:bg-indigo-300 rounded px-3 py-1">
-            <a>Contact</a>
+            <a>About</a>
           </li>
           <li onClick={handleAbout} className="hover:bg-indigo-300 rounded px-3 py-1">
-            <a>About</a>
+            <a>Contact</a>
           </li>
         </ul>
       </div>
@@ -92,10 +92,10 @@ const Navbar = () => {
                 <a>Pricing</a>
               </li>
               <li>
-                <a>Contact</a>
+                <a>About</a>
               </li>
               <li>
-                <a>About</a>
+                <a>Contact</a>
               </li>
               <li>
                 <a>Sign In</a>
