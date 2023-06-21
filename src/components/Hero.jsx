@@ -28,8 +28,8 @@ const Hero = () => {
       />
       <div className='w-full h-[550px] flex py-20 justify-start'>
         <div className='md:w-1/2 w-full md:py-6 py-0 md:z-0 z-50'>
-          <h1 className='text-5xl text-white md:text-left py-10 text-center pt-0 mb-10'>The Future Of Cyber Security Is Here!!</h1>
-          <p className='text-2xl text-gray-400 text-left md:flex hidden'>Empowering businesses with robust cybersecurity solutions and cutting-edge web development<br/>
+          <h1 className='text-5xl text-white md:text-left md:py-4 py-10 text-center pt-0 md:mb-0 mb-10'>The Future Of Cyber Security Is Here!!</h1>
+          <p className='text-2xl text-gray-200 text-left md:flex hidden'>Empowering businesses with robust cybersecurity solutions and cutting-edge web development<br/>
            services. We safeguard digital assets, while<br/> crafting exceptional websites that captivate<br/> 
            audiences and drive success in the<br/> ever-evolving online landscape.</p>
            <div className='flex gap-6 md:justify-start justify-center'>
