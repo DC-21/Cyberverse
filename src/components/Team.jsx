@@ -6,7 +6,7 @@ import joshua from '../images/joshua.png'
 
 const Team = () => {
   return (
-    <section className="w-full h-screen px-8 py-6 bg-[#381495]">
+    <section className="w-full min-h-screen px-8 py-6 bg-[#381495]">
       <div className="container px-5 py-6 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="text-4xl font-medium title-font mb-4 text-white tracking-widest">
