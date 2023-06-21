@@ -5,6 +5,7 @@ import Services from './components/Services'
 import Pricing from './components/Pricing'
 import Team from './components/Team'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
      <Pricing/>
      <Team/>
      <Contact/>
+     <Footer/>
     </>
   )
 }
