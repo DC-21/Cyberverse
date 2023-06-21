@@ -1,5 +1,8 @@
 import React from "react";
 import own from '../images/own.png'
+import tman from '../images/tman.png'
+import rabbi from '../images/rabbi.png'
+import joshua from '../images/joshua.png'
 
 const Team = () => {
   return (
@@ -25,7 +28,7 @@ const Team = () => {
                 <h2 className="title-font font-medium text-lg text-white">
                  Chola Kuboko
                 </h2>
-                <h3 className="text-slate-200 mb-3">Full-Stack Developer</h3>
+                <h3 className="text-slate-200 mb-3">Full-Stack Developer/CyberSecurity Analyst</h3>
                 <p className="mb-4 text-slate-400">
                   Full-stack web developer in: ReactJs, ExpressJs, NodeJs and MySQL
                 </p>
@@ -65,8 +68,8 @@ const Team = () => {
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <img
                 alt="team"
-                className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                src="https://dummyimage.com/200x200"
+                className="flex-shrink-0 rounded-lg w-48 h-38 object-cover object-center sm:mb-0 mb-4"
+                src={tman}
               />
               <div className="flex-grow sm:pl-8">
                 <h2 className="title-font font-medium text-lg text-white">
@@ -112,8 +115,8 @@ const Team = () => {
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <img
                 alt="team"
-                className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                src="https://dummyimage.com/200x200"
+                className="flex-shrink-0 rounded-lg w-48 h-38 object-cover object-center sm:mb-0 mb-4"
+                src={rabbi}
               />
               <div className="flex-grow sm:pl-8">
                 <h2 className="title-font font-medium text-lg text-white">
@@ -159,8 +162,8 @@ const Team = () => {
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <img
                 alt="team"
-                className="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
-                src="https://dummyimage.com/200x200"
+                className="flex-shrink-0 rounded-lg w-48 h-38 object-cover object-center sm:mb-0 mb-4"
+                src={joshua}
               />
               <div className="flex-grow sm:pl-8">
                 <h2 className="title-font font-medium text-lg text-white">
