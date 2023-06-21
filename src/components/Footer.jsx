@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="text-gray-600 body-font bg-[#381495]">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 py-20 mx-auto">
         <div className="flex flex-wrap md:text-left text-center order-first">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="text-l text-white tracking-widest mb-3">
@@ -11,13 +11,13 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-300 hover:text-gray-200">First Link</a>
+                <a className="text-gray-300 hover:text-gray-200">Web Development</a>
               </li>
               <li>
-                <a className="text-gray-300 hover:text-gray-200">Second Link</a>
+                <a className="text-gray-300 hover:text-gray-200">UI/UX Design</a>
               </li>
               <li>
-                <a className="text-gray-300 hover:text-gray-200">Third Link</a>
+                <a className="text-gray-300 hover:text-gray-200">Penetration Testing</a>
               </li>
             </nav>
           </div>
@@ -27,13 +27,13 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-300 hover:text-gray-200">First Link</a>
+                <a className="text-gray-300 hover:text-gray-200">Careers</a>
               </li>
               <li>
-                <a className="text-gray-300 hover:text-gray-200">Second Link</a>
+                <a className="text-gray-300 hover:text-gray-200">Privacy Policy</a>
               </li>
               <li>
-                <a className="text-gray-300 hover:text-gray-200">Third Link</a>
+                <a className="text-gray-300 hover:text-gray-200">Terms of service</a>
               </li>
             </nav>
           </div>
